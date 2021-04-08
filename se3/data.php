@@ -3,10 +3,10 @@
 function get_carmodel($name)
 {
         /* Database INFO */
-	$servername = "localhost";
-	$username = "muddanan1";
-	$password = "dszu5s";
-	$dbname = "muddanan1_db";
+	$servername = 'us-cdbr-east-03.cleardb.com';
+	$username = 'beb59f30ab670f';
+	$password = 'fd9ba7ef';
+	$dbname = 'heroku_2d004d87e93034c';
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);

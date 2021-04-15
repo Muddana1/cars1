@@ -33,15 +33,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                // Check if username exists, if yes then verify password
                if(mysqli_stmt_num_rows($stmt) == 1){                    
                    // Bind result variables
-                   mysqli_stmt_bind_result($stmt, $carname, $carmodel);
+                   mysqli_stmt_bind_result($stmt, $carname, $h_carmodel);
 			if(mysqli_stmt_fetch($stmt)){
-                       if($carmodel == $carmodel){
+                       if($carmodel == $h_carmodel){
                            // Password is correct Display a message that it's OK
                            $message = "The car that you have entered already exists!";
  
                        } else{
                            // Display an error message 
-                           $message = "The car that you have entered does not exist.";
+                           $message = "The carmodel that you have entered is wrong!!";
                        }
                  }
  		} else{

@@ -3,7 +3,7 @@
 function get_carmodel($name)
 {
 $carname = [
-"bmw"=>34,
+"bmw"=>1,
 "audi"=>2,
 "benz"=>3
 ];

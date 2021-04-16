@@ -1,6 +1,6 @@
 <?php
 
-1function get_carmodel($name, $carmodel)
+function get_carmodel($name, $carmodel)
 {
         /* Database INFO */
 	$servername = 'us-cdbr-east-03.cleardb.com';
